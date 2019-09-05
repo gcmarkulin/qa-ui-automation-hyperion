@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Broken Tests",
+    "matchedStatuses": ["skipped"],
+    "messageRegex": ".*Test tagged as broken, so skipping.*"
+  },
+  {
+    "name": "Not Implemented Yet Tests",
+    "matchedStatuses": ["skipped"],
+    "messageRegex": ".*Test tagged as notImplementedYet, so skipping.*"
+  },
+  {
+    "name": "Out Of Scope Tests",
+    "matchedStatuses": ["skipped"],
+    "messageRegex": ".*Test tagged as outOfScope, so skipping.*"
+  },
+  {
+    "name": "Defects Tests",
+    "matchedStatuses": ["failed"]
+  }
+]

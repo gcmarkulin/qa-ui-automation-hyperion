@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+    <test name="Test">
+        <classes>
+            <class name="com.company.test.testng.parallel.FacebookLoginChromeTest" />
+            <class name="com.company.test.testng.parallel.FacebookLoginFirefoxTest" />
+            <class name="com.company.test.testng.parallel.IssueTrackerFirefoxTest" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
